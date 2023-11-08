@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border: 1px solid black;
+    padding: 10px;
+    height: 100px;
+}
+
+label {
+    margin: 5px;
+}
+
+input {
+    width: 75px;
+}
+
+.right {
+    width: 75%;
+    background-color: wheat;
+    height: 100vh;
+}
+
+.red {
+    background-color: red;
+}
+
+button {
+    width: 30px;
+    height: 28px;
+}
